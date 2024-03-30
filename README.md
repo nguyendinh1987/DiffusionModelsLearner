@@ -7,8 +7,9 @@
 2. [ ] Applications
    - [ ] Text to image
    - [ ] Image to image
-   - [ ] Inpainting
    - [ ] Segmentation to image
+   - [ ] Inpainting
+   - [ ] High resolution generation
 2. [ ] Controlnet
 
 # References:
