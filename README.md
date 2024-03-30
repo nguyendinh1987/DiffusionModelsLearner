@@ -1,8 +1,15 @@
 # DiffusionModelsLearner
-1. Latent Space Diffusion Model (LDM):
-   1. Model breakdown (.)
-   2. Image generation function (.)
-   3. Intermidiate generated images over interations (.)
-   4. Visualization of interpolated generated images (.)
-   5. Visualization of conditioned generated images (.)
-2. Prompts?? 
+1. [ ] Latent Space Diffusion Model (LDM):
+   - [ ] Theory
+   - [ ] Pipeline
+   - [ ] Conditions: text, bounding box, mask, image
+   - [ ] Noise sampling
+2. [ ] Applications
+   - [ ] Text to image
+   - [ ] Image to image
+   - [ ] Inpainting
+   - [ ] Segmentation to image
+2. [ ] Controlnet
+
+# References:
+1. [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
