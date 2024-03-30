@@ -1,4 +1,4 @@
-# DiffusionModelsLearner
+# Latent Diffusion Model Knowledge
 1. [ ] Latent Space Diffusion Model (LDM):
    - [ ] Theory
    - [ ] Pipeline
