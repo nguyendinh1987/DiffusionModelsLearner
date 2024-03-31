@@ -16,7 +16,7 @@ It converts distribution $π(y)$ back to data distribution $q(x^{(0)})$ through 
 >> $π(x^T) = p(x^T)$  
 >> $p(x^{0..T}) = p(x^T) \displaystyle\prod_{k=1}^T p(x^{T-1}|x^T)$
 
-Since $q(x^t | x^{t−1})$ is a Gaussian (binomial) distribution, and if $β^t$ is small, then $p(x^{t−1} |x^t)$ will also be a Gaussian (binomial) distribution.
+Since $q(x^t | x^{t−1})$ is a Gaussian (binomial) distribution, and if $β^t$ is small, then $p(x^{t−1} |x^t)$ will also be a Gaussian (binomial) distribution. The longer the trajectory the smaller the diffusion rate β can be made.
 # Model probability
 # Training and evaluation
 # Multiplying distribution and computing posteriors
