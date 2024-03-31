@@ -9,7 +9,7 @@
 
 - <div align="left"> Image autoencoder and decoder: KL-regularized autoencoder was used as a **first_state_model** to encode images into latent features (encoder E) and decode latent features into image (decoder D). This autoencoder can be trained separatedly on several datasets, such as ImageNet, FFHQ, celebA-HQ, ADE20K, COCO-stuff, FaceHQ, and so on to achieve an universal autoencoder model [2].</div>
 
-- Latent space diffusion is an Unet model: It was train to predict noise embeded into the image at different scales???.
+- Latent space diffusion is an Unet model: It was train to predict noise embeded into the image. [DiffusionModel](https://github.com/nguyendinh1987/LatentDiffusion_Practice/blob/main/docs/DiffusionModel.md)
 
 - Conditional mechanisms: There is an additional model compressing conditional modality into latent features which can be injected into the diffusion Unet model to augment generative process using concatination or attension layers. 
   - Time
