@@ -27,7 +27,8 @@ Naively, this integral is intractable but taking a cue from annealed importance 
 Training amounts to maximizing the model log likelihood, which has a lower bound provided by Jensen’s inequality.  
 >> $loss = \int dx^{(0)} q(x^{(0)}) log(p(x^{(0)}))$  
 
-Training consists of finding the reverse Markov transitions which maximize this lower bound on the log likelihood.
+Training consists of finding the reverse Markov transitions which maximize this lower bound on the log likelihood.  
+The task of estimating a probability distribution has been reduced to the task of performing regression on the functions which set the mean and covariance of a sequence of Gaussians
 
 # Multiplying distribution and computing posteriors
 # Entropy of reverse process
