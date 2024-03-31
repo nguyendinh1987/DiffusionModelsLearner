@@ -32,7 +32,7 @@ The task of estimating a probability distribution has been reduced to the task o
 
 # Setting the diffusion rate:
 The choice of $β<sub>t</sub>$ in the forward trajectory is important for the performance of the trained model. The right schedule of intermediate distributions can greatly improve the accuracy of the log partition function estimation. In thermodynamics the schedule taken when moving between equilibrium distributions determines how much free energy is lost.  
-In the case of Gaussian diffusion, we learn the forward diffusion schedule β<sub>2···T</sub> by gradient ascent on K. The variance β<sub>1</sub> of the first step is fixed to a small constant to prevent overfitting. The dependence of samples from q(x^{(1···T)} |x^{(0)}) on $β<sub>1···T</sub> is made explicit by using ‘frozen noise’.
+In the case of Gaussian diffusion, we learn the forward diffusion schedule β<sub>2···T</sub> by gradient ascent on K. The variance β<sub>1</sub> of the first step is fixed to a small constant to prevent overfitting. The dependence of samples from $q(x^{(1···T)} |x^{(0)})$ on β<sub>1···T</sub> is made explicit by using ‘frozen noise’.
 # Multiplying distribution and computing posteriors
 # Entropy of reverse process
 
