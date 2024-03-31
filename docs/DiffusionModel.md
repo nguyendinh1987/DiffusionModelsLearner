@@ -47,6 +47,7 @@ For binomial diffusion, the discrete state space makes gradient ascent with froz
 - Binominal diffusion
 - Entropy
 - KL divergences
+- Multipling distribution
 - Small datasets: swiss roll, binary sequence, handwritten digit (MNIST), and several natural image as CIFAR-10, bark, and dead leaves
 # References:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](https://arxiv.org/pdf/1503.03585.pdf)
