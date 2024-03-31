@@ -5,7 +5,8 @@ Hello world
 - It uses a Markov chain to gradually convert one distribution into another, an idea used in non-equilibrium statistical physics (Jarzynski, 1997) and sequential Monte Carlo (Neal, 2001).
 # Diffusion process
 Data distribution $q(x^{(0)})$ is gradually converted into a well behaved (analytically tractable) distribution $π(y)$ by repeated application of a Markov diffusion kernel $Tπ(y|y′; β)$ for $π(y)$, where $β$ is the diffusion rate
->> $q(x^{t-1})$ &rarr; $q(x^{t})$: $q(x^t|x^{t-1}) = Tπ(x^t|x^{t-1}; β)$
+>> $π(y)$ = $\frac dy^' Tπ(y|x^'}; β) π(y^')$
+>> $q(x^t|x^{t-1}) = Tπ(x^t|x^{t-1}; β)$
 
 The forward trajectory, corresponding to starting at the data distribution and performing T steps of diffusion  
 
@@ -21,6 +22,7 @@ The forward trajectory, corresponding to starting at the data distribution and p
 - Monte Carlo process
 - Markov chain
 - non-equilibrium statistical physics
+- Binominal diffusion
 - Small datasets: swiss roll, binary sequence, handwritten digit (MNIST), and several natural image as CIFAR-10, bark, and dead leaves
 # References:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](https://arxiv.org/pdf/1503.03585.pdf)
