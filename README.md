@@ -10,7 +10,7 @@
    - [ ] Segmentation to image
    - [ ] Inpainting
    - [ ] High resolution generation
-2. [ ] Controlnet
+   - [ ] Controlnet
 
 # References:
 1. [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
