@@ -12,6 +12,10 @@ The forward trajectory, corresponding to starting at the data distribution and p
 
 >> $q(x^{0...T})=q(x^0)\displaystyle\prod_{k=1}^T q(x^t|x^{t-1})$
 # Reverse trajectory
+It converts distribution $π(y)$ back to data distribution $q(x^{(0)})$ through several step of similar to diffusion process but in reverse direction
+>> $π(x^T) = p(x^T)$
+>> $p(x^{0..T}) = p(x^T) \displaystyle\prod_{k=1}^T p(x^{T-1}|x^T)$
+
 # Model probability
 # Training and evaluation
 # Multiplying distribution and computing posteriors
