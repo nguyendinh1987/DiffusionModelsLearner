@@ -1,4 +1,4 @@
-# Latent Diffusion Model Knowledge
+# Latent Diffusion Model and Applications
 1. [ ] Latent Space Diffusion Model (LDM):
    - [ ] General knowledge
    - [ ] Noise sampling
