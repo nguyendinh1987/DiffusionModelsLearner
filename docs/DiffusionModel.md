@@ -33,6 +33,8 @@ Naively, this integral is intractable but taking a cue from annealed importance 
 - Markov chain
 - non-equilibrium statistical physics
 - Binominal diffusion
+- Entropy
+- KL divergences
 - Small datasets: swiss roll, binary sequence, handwritten digit (MNIST), and several natural image as CIFAR-10, bark, and dead leaves
 # References:
 1. [Deep unsupervised learning using nonequilibrium thermodynamics](https://arxiv.org/pdf/1503.03585.pdf)
