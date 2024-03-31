@@ -6,6 +6,8 @@ Hello world
 # Diffusion process
 Data distribution $q(x^{(0)})$ is gradually converted into a well behaved (analytically tractable) distribution $π(y)$ by repeated application of a Markov diffusion kernel $Tπ(y|y′; β)$ for $π(y)$, where $β$ is the diffusion rate
 >> $q(x^{t-1})$ &rarr; $q(x^{t})$: $q(x^t|x^{t-1}) = Tπ(x^t|x^{t-1}; β)$
+The forward trajectory, corresponding to starting at the data distribution and performing T steps of diffusion
+>> $q(x^{0...T})=q(x^0)\displaystyle\prod_{k=1}^T (x^t|x^{t-1})$
 # Reverse trajectory
 # Model probability
 # Training and evaluation
