@@ -17,6 +17,7 @@
   - Boundingbox
   - Images (segmentation map, image)
 
+# Code flow
 # Other notes:
 - Diffusion models belong to the class of likelihood-based models. What is the likehood-based models?
 
