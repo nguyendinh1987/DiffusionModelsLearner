@@ -10,7 +10,7 @@ Data distribution $q(x^{(0)})$ is gradually converted into a well behaved (analy
 
 The forward trajectory, corresponding to starting at the data distribution and performing T steps of diffusion  
 
->> $q(x^{0...T})=q(x^0)\displaystyle\prod_{k=1}^T (x^t|x^{t-1})$
+>> $q(x^{0...T})=q(x^0)\displaystyle\prod_{k=1}^T q(x^t|x^{t-1})$
 # Reverse trajectory
 # Model probability
 # Training and evaluation
