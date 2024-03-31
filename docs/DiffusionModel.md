@@ -23,7 +23,12 @@ The probability the generative model assigns to the data is
 
 Naively, this integral is intractable but taking a cue from annealed importance sampling and the Jarzynski equality, we instead evaluate the relative probability of the forward and reverse trajectories, averaged over forward trajectories.
 
-# Training and evaluation
+# Training??
+Training amounts to maximizing the model log likelihood, which has a lower bound provided by Jensen’s inequality.  
+>> $loss = \int dx^{(0)} q(x^{(0)}) log(p(x^{(0)}))$  
+
+Training consists of finding the reverse Markov transitions which maximize this lower bound on the log likelihood.
+
 # Multiplying distribution and computing posteriors
 # Entropy of reverse process
 
