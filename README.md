@@ -1,8 +1,6 @@
 # Latent Diffusion Model Knowledge
 1. [ ] Latent Space Diffusion Model (LDM):
-   - [ ] Theory
-   - [ ] Pipeline
-   - [ ] Conditions: text, bounding box, mask, image
+   - [ ] General knowledge
    - [ ] Noise sampling
 2. [ ] Applications
    - [ ] Text to image
