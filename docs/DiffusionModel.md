@@ -18,6 +18,11 @@ It converts distribution $π(y)$ back to data distribution $q(x^{(0)})$ through 
 
 Since $q(x^t | x^{t−1})$ is a Gaussian (binomial) distribution, and if $β^t$ is small, then $p(x^{t−1} |x^t)$ will also be a Gaussian (binomial) distribution. The longer the trajectory the smaller the diffusion rate β can be made.
 # Model probability
+The probability the generative model assigns to the data is
+>> $p(x^{(0)}) = \int dx^{1..T} p(x^{0..T})$
+
+Naively, this integral is intractable but taking a cue from annealed importance sampling and the Jarzynski equality, we instead evaluate the relative probability of the forward and reverse trajectories, averaged over forward trajectories.
+
 # Training and evaluation
 # Multiplying distribution and computing posteriors
 # Entropy of reverse process
