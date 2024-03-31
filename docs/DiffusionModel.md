@@ -14,8 +14,8 @@ The forward trajectory, corresponding to starting at the data distribution and p
 # Reverse trajectory
 It converts distribution $π(y)$ back to data distribution $q(x^{(0)})$ through several step of similar to diffusion process but in reverse direction
 >> $π(x^T) = p(x^T)$  
->> $p(x^{0..T}) = p(x^T) \displaystyle\prod_{k=1}^T p(x^{T-1}|x^T)$
-Since $q(x^t) |x${t−1}$ is a Gaussian (binomial) distribution, and if $β^t$ is small, then $p(x^{t−1} |x^t$ will also be a Gaussian (binomial) distribu- tion.
+>> $p(x^{0..T}) = p(x^T) \displaystyle\prod_{k=1}^T p(x^{T-1}|x^T)$  
+Since $q(x^t | x${t−1}$ is a Gaussian (binomial) distribution, and if $β^t$ is small, then $p(x^{t−1} |x^t$ will also be a Gaussian (binomial) distribu- tion.
 # Model probability
 # Training and evaluation
 # Multiplying distribution and computing posteriors
