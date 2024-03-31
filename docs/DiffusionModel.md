@@ -4,7 +4,7 @@ Hello world
 - It is a probabilistic model that allows extreme flexibility in model structure, exact sampling, easy multiplication with other distributions, e.g. in order to compute a posterior, and the model log likelihood, and the probability of individual states, to be cheaply evaluated. ???
 - It uses a Markov chain to gradually convert one distribution into another, an idea used in non-equilibrium statistical physics (Jarzynski, 1997) and sequential Monte Carlo (Neal, 2001).
 # Diffusion process
-Data distribution q(x<sub>(0)</sub>)$ is gradually converted into 
+Data distribution q(x<pow>(0)</pow>)$ is gradually converted into 
 >> $x^y$
 # Reverse trajectory
 # Model probability
